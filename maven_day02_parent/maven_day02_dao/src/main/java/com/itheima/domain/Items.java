@@ -1,8 +1,9 @@
 package com.itheima.domain;
 
 import java.util.Date;
-
+@Data
 public class Items {
+// 
     private Integer id;
     private String name;
     private Double price;
